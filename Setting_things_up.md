@@ -120,7 +120,7 @@ julia> Pkg.add("IJulia")
 
 ### Verify the installation
 We will try running a code notebook to verify the installation is OK. 
-* Go to the [notebook we have prepared for the workshop](https://github.com/BattMoTeam/BattMo-workshop-2025-06-13/blob/main/tutorials/Installation.ipynb).
+* Go to the [notebook we have prepared for the workshop](https://github.com/BattMoTeam/BattMo-workshop-2025-06-13/blob/main/Installation_check.ipynb).
 * Download the file by clicking on the "Download Raw" button on the top right of the file preview.
 * Move the file into the folder where you previously created your environment.
 * Open VS Code in the project folder (if not already opened yet) and click on the Installation.ipynb file.
