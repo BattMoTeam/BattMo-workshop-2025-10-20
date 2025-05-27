@@ -1,6 +1,6 @@
 # BattMo.jl:  Julia + VS Code Setup
 
-![BattMo text](./assets/battmologo_text.png)
+<img src="./assets/battmologo_text.png" alt="BattMo text" width="200">
 
 ### Required Software 
 To run BattMo.jl we will need three pieces of software:
@@ -23,8 +23,9 @@ Once the project is in place, we will walk you through how to activate your envi
 
 
 # 1. Install Julia
-![Julia logo](assets/julia_logo.png)
+
 We recommend to install Julia from the official installer at the [Julia Downloads page](https://julialang.org/downloads/).
+
 
 ### Installation for windows
 - In the table of "Current Stable Releases", click on the installer in either 64 bit or 32 bit. Most modern Windows PC use a 64 bit system so we recommend installing this version. However, if you have issues, install the 32 bit version. If you want to be sure, you can check which system you use by going to Start, search for System Information, and check for "System Type". 64 bit versions look like "x64", while 32 bit version look like "x86".
@@ -37,7 +38,7 @@ We recommend to install Julia from the official installer at the [Julia Download
 ### Installation for MacOS
    - Download the `.dmg` from the same page, open it, and drag Julia to your Applications folder.
 
-![Julia installation page](./assets/julia_installation_page.png)
+<img src="./assets/julia_installation_page.png" alt="Julia installation page" width="1000">
 
 ### Verify installation 
 Open the command line (or terminal), which is a text-based interface to a lot of software in your machine.   
@@ -48,14 +49,17 @@ Type the following command:
    ```bash
    julia --version
    ```
-![Julia version](/assets/julia_version.png)
+
+<img src="./assets/julia_version.png" alt="Julia version" width="500">
+
+
 You should see output like `julia version 1.x.x.`. If not, you might need to add Julia to PATH, i.e. to configure your system to run Julia from any terminal without needing to specify its full installation path; see the Troubleshooting section for instructions on how to add Julia to PATH.
 
 
 # 2. Install VS Code
 To install VS Code, follow the instructions from [the website](https://code.visualstudio.com/download) and the installer will guide you through the process.
 
-![VS Code installation](assets/vscode_installation_page.png)
+<img src="./assets/vscode_installation_page.png" alt="VS Code installation" width="900">
 
 > **Important** During the installation steps, make sure to enable the option of "Add VS Code to Path".
 
@@ -67,21 +71,28 @@ The Julia extension for VS Code provides useful tools tailored to develop Julia 
 
 * Search for Julia (by “Julia Language Support” team) and click Install.
 
-![VS Code Julia extension](/assets/vscode_julia_extensions.png)
+<img src="./assets/vscode_julia_extensions.png" alt="VS Code Julia extension" width="500">
+
 
 ### Configure
 
 * Still within VS Code, open Settings with `Ctrl+,` on Windows (note the comma ",") or ⌘ on macOS.
 
 * Ensure `julia.executablePath` points to the location of your Julia `.exe` file. To find the location:
-   * Open PowerShell and run `Get-Command -ShowCommandInfo julia`
-   * Copy the path that appears under "Definition". The path should look like: `"C:\Users\<your_username>\.julia\juliaup\julia-1.11.0+0.x64.w64.mingw32\bin\julia.exe"`. 
+   * Open PowerShell and run `Get-Command -ShowCommandInfo julia`. 
+      * If you get an error, you might need to add Julia to PATH, see troubleshooting section at the end of these instructions.
+   * Copy the path that appears under "Definition". The path should end with the name of the executable file, for example: `"C:\Users\<your_username>\.julia\juliaup\julia-1.11.0+0.x64.w64.mingw32\bin\julia.exe"`. Note the path ends with `julia.exe`.
    * Paste the path into the VS Code configuration `julia.executablePath`.
-![Julia Extension Executable Path](/assets/vscode_julia_extensions_executable_path.png)
 
-**Verify configuration:** In VS Code, press `Shift + Ctrl + P`, search for "Julia: Start REPL" and select it. After several seconds (even a minute if first time), a terminal window should appear within VS Code. In there you should see green `julia> `, which means the REPL is up and ready to accept commands. Try for instance running `2+2`!
+<img src="./assets/vscode_julia_extensions_executable_path.png" alt="Julia Extension Executable Path" width="900">
 
-![VS Code Julia REPL](/assets/vscode_julia_repl.png)
+
+### Verify configuration
+
+In VS Code, press `Shift + Ctrl + P`, search for "Julia: Start REPL" and select it. After several seconds (even a minute if first time), a terminal window should appear within VS Code. In there you should see green `julia> `, which means the REPL is up and ready to accept commands. Try for instance running `2+2`!
+
+<img src="./assets/vscode_julia_repl.png" alt="VS Code Julia REPL" width="900">
+
 
 # 4. Setup a project
 
@@ -97,7 +108,9 @@ julia> Pkg.instantiate()
 julia> Pkg.add("IJulia")
 ```
 
-![Julia REPL environment](/assets/vscode_julia_repl_environment.png)
+<img src="./assets/vscode_julia_repl_environment.png" alt="Julia REPL environment" width="700">  
+
+
 
 * These commands do:
    * Load the Package manager of Julia `Pkg`.
