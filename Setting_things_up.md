@@ -128,6 +128,8 @@ We will try running a code notebook to verify the installation is OK.
 # Troubleshooting
 
 ### Add Julia to PATH
+To use Julia, your computer needs to know where it is stored. The PATH is like a list of places your computer automatically looks to find tools when you type their name in a text-based terminal. Since VS Code runs a terminal to send the Julia code you write, Julia needs to be findable in the terminal. Therefore, we must specify its location.
+ 
 **Windows:**
 
 * First, find the location where Julia is installed. 
