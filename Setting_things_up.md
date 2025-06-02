@@ -109,7 +109,6 @@ In VS Code, press `Shift + Ctrl + P`, search for "Julia: Start REPL" and select 
 julia> using Pkg: Pkg
 julia> Pkg.activate("./")
 julia> Pkg.instantiate()
-julia> Pkg.add("IJulia")
 ```
 
 <img src="./assets/vscode_julia_repl_environment.png" alt="Julia REPL environment" width="700">
@@ -118,7 +117,6 @@ julia> Pkg.add("IJulia")
   - Load the Package manager of Julia `Pkg`.
   - Activate the environment, which will generate a `Project.toml` file that will keep track of all packages installed in the environment once you start installing them.
   - Instantiate the environment, which installs all the packages listed in the `Project.toml`, and creates a new `Manifest.toml` that tracks dependencies to other packages.
-  - Install a package called IJulia to run [interavtive Julia notebooks](https://juliapackages.com/p/IJulia) - more about notebooks when we get to the BattMo tutorials.
 
 ### Verify the installation
 
