@@ -53,11 +53,12 @@
     },
     "NegativeElectrode": {
         "Interphase": {
-            "IntersticialConcentration": 0.0,
             "ElectronicDiffusionCoefficient": 0.0,
+            "InterstitialConcentration": 0.0,
             "InitialThickness": 0.0,
             "IonicConductivity": 0.0,
             "StoichiometricCoefficient": 0.0,
+            "InitialPotentialDrop": 0.0,
             "MolarVolume": 0.0
         },
         "ActiveMaterial": {
