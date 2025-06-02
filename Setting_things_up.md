@@ -133,6 +133,7 @@ We will try running a code notebook to verify the installation is OK.
 # Troubleshooting
 
 ### Add Julia to PATH
+The PATH tells VS Code where to find Julia. To set this correctly:
 
 **Windows:**
 
