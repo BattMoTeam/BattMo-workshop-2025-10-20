@@ -1,7 +1,6 @@
 {
-    "FilePath": "../../wltp_current.jl",
     "TotalTime": 1800,
-    "FunctionName": "current_function_2",
+    "FunctionName": "wltp_current",
     "InitialStateOfCharge": 0.99,
     "InitialTemperature": 298.15,
     "Metadata": {
