@@ -1,0 +1,12 @@
+{
+    "FilePath": "../../wltp_current.jl",
+    "TotalTime": 1800,
+    "FunctionName": "current_function_2",
+    "InitialStateOfCharge": 0.99,
+    "InitialTemperature": 298.15,
+    "Metadata": {
+        "Description": "Parameter set that shows an example of how to include a user defined function in the cycling protocol parameters.",
+        "Title": "user_defined_current_function"
+    },
+    "Protocol": "Function"
+}
