@@ -106,9 +106,10 @@ In VS Code, press `Shift + Ctrl + P`, search for "Julia: Start REPL" and select 
 - In the REPL, run the following commands one by one:
 
 ```
-julia> using Pkg: Pkg
-julia> Pkg.activate("./")
-julia> Pkg.instantiate()
+using Pkg: Pkg
+Pkg.activate("./")
+Pkg.add("DataFrames")
+Pkg.instantiate()
 ```
 
 <img src="./assets/vscode_julia_repl_environment.png" alt="Julia REPL environment" width="700">
