@@ -116,6 +116,7 @@ Pkg.instantiate()
 
 - These commands:
   - Load the Package manager of Julia `Pkg`.
+  - Install one package, DataFrames, which will be used to manipulate tabular data.
   - Activate the environment, which will generate a `Project.toml` file that will keep track of all packages installed in the environment once you start installing them.
   - Instantiate the environment, which installs all the packages listed in the `Project.toml`, and creates a new `Manifest.toml` that tracks dependencies to other packages.
 
