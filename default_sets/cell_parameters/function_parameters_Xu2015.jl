@@ -172,8 +172,6 @@ function electrolyte_conductivity_Xu_2015(c::Real, T::Real)
 	return conductivity
 end
 
-
-
 function electrolyte_diffusivity_Xu_2015(c::Real, T::Real)
 	""" Compute the diffusion coefficient as a function of concentration
 	"""
@@ -188,8 +186,3 @@ function electrolyte_diffusivity_Xu_2015(c::Real, T::Real)
 	D = 10^((cnst[1, 1] + cnst[1, 2] / (T - Tgi[1] - Tgi[2] * c * 1e-3) + cnst[2, 1] * c * 1e-3))
 	return D
 end
-
-@eval Main open_circuit_potential_graphite_Xu_2015 = $open_circuit_potential_graphite_Xu_2015
-@eval Main open_circuit_potential_lfp_Xu_2015 = $open_circuit_potential_lfp_Xu_2015
-@eval Main electrolyte_conductivity_Xu_2015 = $electrolyte_conductivity_Xu_2015
-@eval Main electrolyte_diffusivity_Xu_2015 = $electrolyte_diffusivity_Xu_2015
