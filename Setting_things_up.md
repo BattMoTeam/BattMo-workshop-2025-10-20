@@ -24,22 +24,16 @@ It is good practice to create a project, where all packages for a task are isola
 
 # 1. Install Julia
 
-We recommend installing Julia from the official installer at the [Julia Downloads page](https://julialang.org/downloads/).
+Julia should be installed using the recommended way (using juliaup), see [Julia Downloads page](https://julialang.org/install/).
 
 ### Installation for windows
 
-- In the table of "Current Stable Releases", click on the installer in either 64-bit or 32-bit. Most modern Windows PC use a 64-bit system so we recommend installing this version. However, if you have issues, install the 32-bit version. If you want to be sure, you can check which system you use by going to Start, search for System Information, and check for "System Type". 64-bit versions look like _"x64"_, while 32-bit version look like _"x86"_.
-- When the download finishes, click on the file to start the installation.
+- You can install Julia from the Microsoft Store app or through you command prompt, see the previous link.
 
-> **Important** Make sure to enable the option of "Add Julia to Path".
+### Installation for MacOS or Linux
 
-- When the installation is complete you can close the installation window.
+- You need to install Julia using you terminal, see [Installing Julia for Linux or Mac](https://julialang.org/install/)
 
-### Installation for MacOS
-
-- Download the `.dmg` from the same page, open it, and drag Julia to your Applications folder.
-
-<img src="./assets/julia_installation_page.png" alt="Julia installation page" width="1000">
 
 ### Verify installation
 
