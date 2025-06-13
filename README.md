@@ -7,4 +7,4 @@ Lets first ensure we have the software that we need installed and properly confi
 
 # Discord link:
 
-https://discord.com/channels/1379742529372553360/1379748497032745050
+https://discord.gg/CfhRVGC4
