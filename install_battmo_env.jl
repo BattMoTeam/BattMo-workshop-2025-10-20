@@ -2,7 +2,8 @@ using Pkg: Pkg
 
 Pkg.activate(".") # Activates the environment in the current folder
 Pkg.instantiate()
-Pkg.add("BattMo")
+Pkg.Registry.update()
+Pkg.add(name = "BattMo", version = "0.1.11")
 Pkg.add("GLMakie")      # For plotting
 Pkg.add("Jutul")        # A multiphysics simulation framework for reservoir modeling and scientific computing
 Pkg.add("CSV")          # For reading and writing CSV files
