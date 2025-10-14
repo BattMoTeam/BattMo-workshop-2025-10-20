@@ -103,17 +103,18 @@ In VS Code, press `Shift + Ctrl + P`, search for "Julia: Start REPL" and select 
 using Pkg: Pkg
 Pkg.activate("./")
 Pkg.add("DataFrames")
+Pkg.add("Instantiate") 
 ```
 
 <img src="./assets/vscode_julia_repl_environment.png" alt="Julia REPL environment" width="700">
 
 - These commands:
   - Load the Package manager of Julia `Pkg`.
-  - Install one package, DataFrames, which will be used to manipulate tabular data.
+  - Install the package DataFrames, which will be used to manipulate tabular data.
   - Activate the environment, which will generate a `Project.toml` file that will keep track of all packages installed in the environment once you start installing them.
   - Instantiate the environment, which installs all the packages listed in the `Project.toml`, and creates a new `Manifest.toml` that tracks dependencies to other packages.
 
-### Verify the installation
+# 5. Verify the installation
 
 We will try running a code notebook to verify the installation is OK.
 
@@ -123,7 +124,7 @@ We will try running a code notebook to verify the installation is OK.
 - Open VS Code in the project folder (if not already opened yet) and click on the `Installation_check.ipynb` file.
 - Follow the instructions in the notebook step by step.
 
-> If the notebook runs fine, **you are ready for BattMo workshp!**
+> If the notebook runs fine, **you are ready for BattMo workshop!**
 
 # Troubleshooting
 
