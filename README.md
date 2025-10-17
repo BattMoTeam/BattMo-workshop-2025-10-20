@@ -1,4 +1,4 @@
-# BattMo-workshop-2025-06-13
+# BattMo-workshop-2025-10-20
 
 [![Logo](https://github.com/BattMoTeam/visual-identity/blob/1bc87b07605d77fb3faa788c82f06ec2735ed31f/logos/battmo_logo_side.png)](https://github.com/BattMoTeam/BattMo.jl)
 
